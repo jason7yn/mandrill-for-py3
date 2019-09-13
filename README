@@ -1,14 +1,3 @@
-Mandrill is a Python API client and suite of CLI-based tools for the Mandrill email as a platform service.
+Modified version of mandrill API Client for Python 3.7
 
-The API client is comprehensive, but the CLI functionality is minimal at this time.
-
-Examples:
-import mandrill
-m = mandrill.Mandrill('YOUR_API_KEY')
-print m.users.ping()
---> "PONG!"
-
-CLI Examples:
-mandrill setup
-mandrill ping -c10
-mandrill send -f from@example.com -t to@example.com -s "My Subject Line" < content.html
+replaced parameter named async to asy because async is a resvered keyword in python 3.7
