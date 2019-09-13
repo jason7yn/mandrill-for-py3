@@ -2,15 +2,15 @@ from setuptools import setup
 import os.path
 
 setup(
-    name='mandrill',
+    name='mandrill-for-py3',
     version='1.0.58',
-    author='Mandrill Devs',
+    author='Woody',
     author_email='community@mandrill.com',
-    description='A CLI client and Python API library for the Mandrill email as a service platform.',
+    description='A modified version based on Mandrill Python API client.',
     long_description=open(os.path.join(os.path.dirname(__file__), 'README')).read(),
     license='Apache-2.0',
     keywords='mandrill email api',
-    url='https://bitbucket.org/mailchimp/mandrill-api-python/',
+    url='https://github.com/woodythewoodpecker/mandrill-for-py3.git',
     scripts=['scripts/mandrill', 'scripts/sendmail.mandrill'],
     py_modules=['mandrill'],
     install_requires=['requests >= 0.13.2', 'docopt == 0.4.0'],
