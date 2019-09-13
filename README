@@ -1,3 +1,7 @@
-Modified version of mandrill API Client for Python 3.7
+This is not an official publish.
 
-replaced parameter named async to asy because async is a resvered keyword in python 3.7
+A modified version of mandrill API Client for Python 3.7
+
+Replaced all arguments named async to asy because async is a resvered keyword in python 3.7
+
+
