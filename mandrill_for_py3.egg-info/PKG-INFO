@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: mandrill-for-py3
+Version: 1.0.58
+Summary: A modified version based on Mandrill Python API client version 1.0.58.
+Home-page: https://github.com/woodythewoodpecker/mandrill-for-py3.git
+Author: Woody
+Author-email: woodythewoodpecker@protonmail.com
+License: Apache-2.0
+Description: Modified version of mandrill API Client for Python 3.7
+        
+        replaced parameter named async to asy because async is a resvered keyword in python 3.7
+        
+Keywords: mandrill email api
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Communications :: Email
